@@ -1,0 +1,62 @@
+.crystals{
+    display: flex;
+    justify-content: space-around;
+   /* border: 1px solid yellow; */
+    align-items: center;
+
+}
+.crystal{
+    border: 1px solid rgb(51, 1, 43);
+    height:200px;
+    width:200px ;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgb(55, 160, 155);
+    transition: width 2s;
+}
+
+.crystal:hover{
+    box-shadow: 25px 25px 25px rgb(59, 9, 47);
+    cursor:pointer;
+
+}
+
+img{
+    width:50px;
+}
+body{
+    background-color: whitesmoke;
+}
+h1 {
+    /* color: coral;
+    font-family: verdana;
+    font-size: 300%;
+    padding: 0.5 0 90px 0p; */
+
+    margin: 1em 0 0.5em 0;
+    color: rgb(179,30,0);
+    text-align: center;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px rgba(255, 253, 253, 0.993), 0 3px rgb(0, 0, 0);
+
+}
+
+p{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+h2{
+    margin: 1em 0 0.5em 0;
+	color: darkgray;
+    font-weight: normal;
+    
+	
+}
+
